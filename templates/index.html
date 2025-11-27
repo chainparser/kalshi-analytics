@@ -38,21 +38,26 @@
 
   <!-- Category Selector -->
   <div class="border-t border-gray-200" id="charts">
-    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <div class="container mx-auto px-4 py-4 flex justify-center items-center">
       <nav class="flex gap-6 text-sm text-gray-600">
-        <a href="#" class="hover:text-gray-900">Blue</a>
-        <a href="#" class="hover:text-gray-900">Green</a>
-        <a href="#" class="hover:text-gray-900">Default</a>
-        <a href="#" class="hover:text-gray-900">Orange</a>
-        <a href="#" class="hover:text-gray-900">Red</a>
-        <a href="#" class="hover:text-gray-900">Rose</a>
-        <a href="#" class="hover:text-gray-900">Violet</a>
-        <a href="#" class="hover:text-gray-900">Yellow</a>
+        <a href="#" class="hover:text-gray-900">All</a>
+        <a href="#" class="hover:text-gray-900">Politics</a>
+        <a href="#" class="hover:text-gray-900">Sports</a>
+        <a href="#" class="hover:text-gray-900">Culture</a>
+        <a href="#" class="hover:text-gray-900">Crypto</a>
+        <a href="#" class="hover:text-gray-900">Climate</a>
+        <a href="#" class="hover:text-gray-900">Economics</a>
+        <a href="#" class="hover:text-gray-900">Mentions</a>
+        <a href="#" class="hover:text-gray-900">Companies</a>
+        <a href="#" class="hover:text-gray-900">Financials</a>
+        <a href="#" class="hover:text-gray-900">Tech &amp; Science</a>
+        <a href="#" class="hover:text-gray-900">Health</a>
+        <a href="#" class="hover:text-gray-900">World</a>
       </nav>
-      <button class="flex items-center gap-2 px-3 py-1 border border-gray-300 rounded-md text-sm text-gray-600 hover:bg-gray-50">
+      <!-- <button class="flex items-center gap-2 px-3 py-1 border border-gray-300 rounded-md text-sm text-gray-600 hover:bg-gray-50">
         <i data-lucide="copy" class="w-4 h-4"></i>
-        Copy Code
-      </button>
+        Get Alerts
+      </button> -->
     </div>
   </div>
 
@@ -86,27 +91,6 @@
           </div>
         </div>
 
-        <!-- View More Card -->
-        <div class="w-32 bg-white p-4 rounded-lg shadow-sm border border-gray-200 flex items-center justify-center text-sm text-gray-500">
-          View More
-        </div>
-
-        <!-- Calendar Card -->
-        <div class="w-72 bg-white p-4 rounded-lg shadow-sm border border-gray-200">
-          <div class="flex justify-between items-center mb-4">
-            <p class="text-sm text-gray-500">June 2025</p>
-            <i data-lucide="chevron-down" class="w-4 h-4 text-gray-500"></i>
-          </div>
-          <div class="grid grid-cols-7 gap-2 text-sm text-center">
-            <div>Su</div><div>Mo</div><div>Tu</div><div>We</div><div>Th</div><div>Fr</div><div>Sa</div>
-            <div>1</div><div>2</div><div>3</div><div>4</div><div class="bg-black text-white rounded-full w-6 h-6 flex items-center justify-center mx-auto">5</div><div>6</div><div>7</div>
-            <div>8</div><div>9</div><div>10</div><div>11</div><div>12</div><div>13</div><div>14</div>
-            <div>15</div><div>16</div><div>17</div><div>18</div><div>19</div><div>20</div><div>21</div>
-            <div>22</div><div>23</div><div>24</div><div>25</div><div>26</div><div>27</div><div>28</div>
-            <div>29</div><div>30</div><div class="text-gray-400">1</div><div class="text-gray-400">2</div><div class="text-gray-400">3</div><div class="text-gray-400">4</div><div class="text-gray-400">5</div>
-          </div>
-        </div>
-
         <!-- Move Goal Card -->
         <div class="w-64 bg-white p-4 rounded-lg shadow-sm border border-gray-200">
           <p class="text-sm text-gray-500">Move Goal</p>
@@ -136,66 +120,6 @@
         <div class="w-64 bg-white p-4 rounded-lg shadow-sm border border-gray-200">
           <p class="text-sm font-semibold">Upgrade your Subscription</p>
           <p class="text-sm text-gray-500 mt-1">You are currently on the free plan. Upgrade to the pro plan to get access to all features.</p>
-        </div>
-
-        <!-- Create an Account -->
-        <div class="w-64 bg-white p-4 rounded-lg shadow-sm border border-gray-200">
-          <p class="text-sm font-semibold">Create an account</p>
-          <p class="text-sm text-gray-500 mt-1">Enter your email below to create your account</p>
-          <input type="email" placeholder="m@example.com" class="mt-4 w-full py-2 px-3 border border-gray-300 rounded-md text-sm">
-          <p class="text-center text-sm text-gray-500 my-2">Or continue with</p>
-          <div class="flex gap-2">
-            <button class="flex-1 py-2 bg-gray-100 rounded-md text-sm flex items-center justify-center gap-2">
-              <i data-lucide="github" class="w-4 h-4"></i> GitHub
-            </button>
-            <button class="flex-1 py-2 bg-gray-100 rounded-md text-sm flex items-center justify-center gap-2">
-              <i data-lucide="globe" class="w-4 h-4"></i> Google
-            </button>
-          </div>
-        </div>
-
-        <!-- Exercise Minutes -->
-        <div class="w-64 bg-white p-4 rounded-lg shadow-sm border border-gray-200">
-          <p class="text-sm font-semibold">Exercise Minutes</p>
-          <p class="text-sm text-gray-500 mt-1">Your exercise minutes are ahead of where you normally are.</p>
-          <div class="mt-4 h-24 relative">
-            <!-- Placeholder for line chart down -->
-            <svg class="w-full h-full" viewBox="0 0 100 50">
-              <path d="M0 10 L20 15 L40 30 L60 25 L80 40 L100 50" stroke="black" stroke-width="2" fill="none"></path>
-            </svg>
-          </div>
-        </div>
-
-        <!-- Card Payment -->
-        <div class="w-64 bg-white p-4 rounded-lg shadow-sm border border-gray-200">
-          <div class="flex gap-2">
-            <input type="text" placeholder="1234 1234 1234 1234" class="flex-1 py-2 px-3 border border-gray-300 rounded-md text-sm">
-          </div>
-          <div class="flex gap-2 mt-2">
-            <input type="text" placeholder="MM/YY" class="w-20 py-2 px-3 border border-gray-300 rounded-md text-sm">
-            <input type="text" placeholder="CVC" class="w-20 py-2 px-3 border border-gray-300 rounded-md text-sm">
-          </div>
-          <input type="text" placeholder="Plan" class="mt-2 w-full py-2 px-3 border border-gray-300 rounded-md text-sm">
-        </div>
-
-        <!-- Email Sign Up -->
-        <div class="w-64 bg-white p-4 rounded-lg shadow-sm border border-gray-200">
-          <input type="email" placeholder="m@example.com" class="w-full py-2 px-3 border border-gray-300 rounded-md text-sm">
-          <input type="password" placeholder="Password" class="mt-2 w-full py-2 px-3 border border-gray-300 rounded-md text-sm">
-        </div>
-
-        <!-- Another Line Chart -->
-        <div class="w-64 bg-white p-4 rounded-lg shadow-sm border border-gray-200">
-          <div class="flex justify-between text-xs text-gray-500 mb-4">
-            <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
-          </div>
-          <div class="h-24 relative">
-            <!-- Placeholder for line chart -->
-            <svg class="w-full h-full" viewBox="0 0 100 50">
-              <path d="M0 40 L14 30 L28 35 L42 20 L57 25 L71 15 L85 20 L100 10" stroke="gray" stroke-width="2" fill="none"></path>
-              <path d="M0 30 L14 20 L28 25 L42 10 L57 15 L71 5 L85 10 L100 0" stroke="black" stroke-width="2" fill="none"></path>
-            </svg>
-          </div>
         </div>
       </div>
     </div>
